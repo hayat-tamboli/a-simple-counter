@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    cursor: default;
+}
+header{
+    background: #e6f6ff;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+#reset{
+    position: absolute;
+    padding-top: 5rem;
+}
+main #signs{
+    background: #e9ffe6;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+main #signs button{
+    background: #e9ffe6;
+    border: 0;
+    font-size: 2.5rem;
+    outline: none;
+}
+#plus{
+    cursor: crosshair;
+}
+#minus{
+    cursor: vertical-text;
+}
+#counter{
+    width: 35%;
+    margin: auto;
+}
+#number{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7rem;
+    font-size: 6rem;
+}
+footer{
+    background: #ffdcdc;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer abbr{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+footer a{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+/*mobile optimized*/
+
+@media screen and (max-width: 500px){
+header h1{
+    font-size: 1.5rem;
+}
+#counter{
+    width: 55%;
+}
+#reset{
+    padding-top: 2.5rem;
+}
+}
